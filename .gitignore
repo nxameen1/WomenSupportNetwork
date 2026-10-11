@@ -1,0 +1,33 @@
+# Environment & Secret files
+.env
+*.env
+backend_app/.env
+
+# Python & Virtual Environments
+venv/
+*/venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+db.sqlite3
+
+# Node & Package Managers
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build Outputs
+dist/
+dist-ssr/
+*.local
+
+# Editor & OS files
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
